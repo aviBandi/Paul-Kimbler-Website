@@ -27,9 +27,9 @@ const LeftBanner = () => {
             cursorColor="#38bdf8"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        {/* <p className="text-base font-bodyFont leading-6 tracking-wide">
           I am currently a Business Teacher and DECA Advisor at Wayzata High School. My mission in life is to prepare each and every student with the life and professional skills needed to be successful in their future endeavours. Drawing on my 11 years of experience in the business world and business connections, I strive to create a realistic and diverse learning environment for all my students.
-        </p>
+        </p> */}
       </div>
       {/* <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0"> */}
       <div className="flex flex-col xl:flex-row gap-16">
