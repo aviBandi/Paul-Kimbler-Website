@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiPaypal } from "react-icons/si";
-import Granim from "granim"
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { SiVenmo } from "react-icons/si";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: ["an Educator.", "a DECA Advisor.", "a Dolphins Fan!"],
@@ -11,32 +10,7 @@ const LeftBanner = () => {
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
-  useEffect(() => {
-    // new Granim({
-    //   element: "#logo-canvas",
-    //   direction: "left-right",
-    //   opacity: [1, 1],
-    //   state: {
-    //     gradients: [
-    //       ["#ff014f", "#ff014f"],
-    //       ["#ff014f", "#ff014f"],
-    //       ["#ff014f", "#ff014f"],
-    //     ]
-    //   }
-    // })
-  }, [])
-  // new Granim({
-  //   element: "#logo-canvas",
-  //   direction: "left-right",
-  //   opacity: [1, 1],
-  //   state: {
-  //     gradients: [
-  //       ["#ff014f", "#ff014f"],
-  //       ["#ff014f", "#ff014f"],
-  //       ["#ff014f", "#ff014f"],
-  //     ]
-  //   }
-  // })
+
 
 
   return (
@@ -64,11 +38,9 @@ const LeftBanner = () => {
             Donate Today!
           </h2>
           <div className="flex gap-4">
-            {/* <GradientSpan startColor={startColor} endColor={endColor} className="w-48 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-sky-400 cursor-pointer duration-300 col-span-4"> */}
             <span className="w-48 h-16 bg-sky-400 bg-opacity-100 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-sky-400 cursor-pointer duration-300 col-span-4">
-              <SiPaypal />
+                <SiVenmo className='inline-block mr-2 text-6xl' />
             </span>
-            {/* </GradientSpan> */}
           </div>
         </div>
         <div>
