@@ -7,8 +7,8 @@ const LeftBanner = () => {
     words: ["an Educator.", "a DECA Advisor.", "a Dolphins Fan!"],
     loop: true,
     typeSpeed: 20,
-    deleteSpeed: 10,
-    delaySpeed: 2000,
+    deleteSpeed: 20,
+    delaySpeed: 1500,
   });
 
 
