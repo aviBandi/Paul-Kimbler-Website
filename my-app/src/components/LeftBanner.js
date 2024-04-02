@@ -14,8 +14,8 @@ const LeftBanner = () => {
 
 
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
-      <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-20 px-5 md:px-0 mt-10 md:mt-0">
+      <div className="flex flex-col gap-5 max-w-5xl mx-auto">
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-sky-400">Paul Kimbler</span>
         </h1>
