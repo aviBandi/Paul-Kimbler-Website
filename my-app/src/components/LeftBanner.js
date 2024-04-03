@@ -39,7 +39,7 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="w-48 h-16 bg-sky-400 bg-opacity-100 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-sky-400 cursor-pointer duration-300 col-span-4">
-                <SiVenmo className='inline-block mr-2 text-6xl' />
+              <SiVenmo className='inline-block mr-2 text-6xl' />
             </span>
           </div>
         </div>
@@ -48,15 +48,19 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
+            <a href='https://www.facebook.com/paul.kimbler.7/' target='_blank'>
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+            </a>
             <span className="bannerIcon">
               <FaTwitter />
             </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <a target='_blank' href='https://www.linkedin.com/in/paulkimbler/'>
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
           </div>
         </div>
 
