@@ -55,9 +55,11 @@ const LeftBanner = () => {
                 <FaFacebookF />
               </span>
             </a>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
+            <a href='https://twitter.com/search?q=%40Paul_Kimbler' target='_blank'>
+              <span className="bannerIcon">
+                <FaTwitter />
+              </span>
+            </a>
             <a target='_blank' href='https://www.linkedin.com/in/paulkimbler/'>
               <span className="bannerIcon">
                 <FaLinkedinIn />
