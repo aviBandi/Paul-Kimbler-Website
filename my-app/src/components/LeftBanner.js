@@ -27,7 +27,7 @@ const LeftBanner = () => {
             cursorColor="#38bdf8"
           />
         </h2>
-         {/* <p className="text-base font-bodyFont leading-6 tracking-wide">
+        {/* <p className="text-base font-bodyFont leading-6 tracking-wide">
           I am currently a Business Teacher and DECA Advisor at Wayzata High School. My mission in life is to prepare each and every student with the life and professional skills needed to be successful in their future endeavours. Drawing on my 11 years of experience in the business world and business connections, I strive to create a realistic and diverse learning environment for all my students.
         </p>  */}
       </div>
@@ -38,9 +38,11 @@ const LeftBanner = () => {
             Donate Today!
           </h2>
           <div className="flex gap-4">
-            <span className="w-48 h-16 bg-sky-400 dark:bg-sky-400 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-sky-400 cursor-pointer duration-300 col-span-4">
-              <SiVenmo className='inline-block mr-2 text-6xl' />
-            </span>
+            <a href='https://venmo.com/Paul-Kimbler-10'>
+              <span className="w-48 h-16 bg-sky-400 dark:bg-sky-400 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-sky-400 cursor-pointer duration-300 col-span-4">
+                <SiVenmo className='inline-block mr-2 text-6xl' />
+              </span>
+            </a>
           </div>
         </div>
         <div>
